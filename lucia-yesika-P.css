@@ -7,7 +7,16 @@ body {
 h1 {
   color: darkgreen;
   text-align: center;
+}
+h2 {
+  color: darkgreen;
+  text-align: center;
+  font-size: 80px;
+  font-style: initial;
   background-image: url("Latar_Belakang.png");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
 }
 p {
   text-align: justify;
