@@ -66,3 +66,16 @@ div {
   text-align: center;
   font-size: 32px;
 }
+h3 {
+  font-size: 32px;
+}
+table {
+  width: 50%;
+  max-width: 300%;
+  font-size: 32px;
+}
+th,
+td {
+  padding: 15px 20px;
+  border: 1px solid #1a1818;
+}
