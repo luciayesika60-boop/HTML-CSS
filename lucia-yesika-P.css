@@ -79,6 +79,14 @@ div {
   text-align: center;
   font-size: 28px;
 }
+.card {
+  background-color: beige;
+  border: 1px solid darkgreen;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+}
 h3 {
   font-size: 28px;
 }
