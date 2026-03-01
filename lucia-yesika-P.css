@@ -9,7 +9,25 @@ body {
   align-items: center;
   padding: 10px 20px;
 }
+nav {
+  background: linear-gradient(darkgreen, lightgreen, darkgreen);
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+}
 
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: 0.3s;
+  font-size: 25px;
+}
+
+nav a:hover {
+  color: #ffe5b4;
+  transform: scale(1.1);
+}
 .hamburger {
   margin-right: auto;
 }
@@ -17,7 +35,7 @@ body {
 .hamburger span {
   width: 25px;
   height: 3px;
-  background-color: #333;
+  background-color: black;
   margin: 5px 0;
   display: block;
 }
@@ -46,9 +64,9 @@ body {
   background-position: center;
 }
 h1 {
+  background-color: darkgreen;
   color: white;
   text-align: center;
-  background-color: darkgreen;
   text-decoration: underline;
   font-size: 40px;
 }
@@ -72,12 +90,12 @@ h2 {
 
 p {
   text-align: justify;
-  font-size: 28px;
+  font-size: 25px;
   text-indent: 50px;
 }
 div {
   text-align: center;
-  font-size: 28px;
+  font-size: 25px;
 }
 .card {
   background-color: beige;
@@ -86,9 +104,17 @@ div {
   padding: 20px;
   margin: 20px auto;
   width: 80%;
+  box-shadow: 0 4px 8px rgba(6, 229, 166, 0.2);
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
 }
 h3 {
-  font-size: 28px;
+  font-size: 25px;
 }
 a {
   color: darkgreen;
@@ -98,7 +124,7 @@ a {
 table {
   width: 50%;
   max-width: 300%;
-  font-size: 28px;
+  font-size: 25px;
 }
 th,
 td {
