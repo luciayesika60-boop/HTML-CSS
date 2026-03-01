@@ -72,7 +72,7 @@ h2 {
 
 p {
   text-align: justify;
-  font-size: 32px;
+  font-size: 28px;
   text-indent: 50px;
 }
 div {
@@ -80,7 +80,7 @@ div {
   font-size: 28px;
 }
 h3 {
-  font-size: 32px;
+  font-size: 28px;
 }
 a {
   color: darkgreen;
@@ -90,7 +90,7 @@ a {
 table {
   width: 50%;
   max-width: 300%;
-  font-size: 32px;
+  font-size: 28px;
 }
 th,
 td {
